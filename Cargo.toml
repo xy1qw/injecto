@@ -2,5 +2,11 @@
 name = "injecto"
 version = "0.1.0"
 edition = "2021"
+authors = ["Igor Tatarkin <igrtatarkin@gmail.com>"]
+description = "Di macro"
+readme = "README.md"
+repository = "https://github.com/xy1qw/injecto"
+license-file = "LICENSE"
 
 [dependencies]
+injecto-macro = { path = "./macro", version = "*" }
